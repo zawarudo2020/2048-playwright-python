@@ -34,10 +34,10 @@ pip install -r requirements.txt
 playwright install chromium
 
 # 顯示畫面（方便除錯）
-pytest -v --headed
+python -m pytest -v --headed
 
 # 安靜模式（無頭執行）
-pytest -v
+python -m pytest -v
 # 執行單一測試檔案
 pytest tests/test_2048_game.py -v --headed
 
