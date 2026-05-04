@@ -44,7 +44,10 @@ pytest tests/test_2048_game.py -v --headed
 # 執行單一測試案例
 pytest tests/test_2048_game.py::test_2048_game_loads_successfully -v --headed
 ```
+
 專案結構
+
+
 2048-playwright-python
 
 ├── pages
