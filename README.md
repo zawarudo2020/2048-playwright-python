@@ -47,9 +47,9 @@ pytest tests/test_2048_game.py::test_2048_game_loads_successfully -v --headed
 
 2048-playwright-python/
 ├── pages/
-│   └── game_2048_page.py          # Page Object Model 主類別
+│   └── game_2048_page.py 
 ├── tests/
-│   └── test_2048_game.py          # 測試案例
+│   └── test_2048_game.py
 ├── pytest.ini
 ├── requirements.txt
 └── README.md
